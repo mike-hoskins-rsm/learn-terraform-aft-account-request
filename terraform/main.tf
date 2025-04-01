@@ -1,12 +1,12 @@
-module "acct2" {
+module "acct4" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "mikehoskins+aft2025-acct2@gmail.com"
-    AccountName               = "acct2-aft"
+    AccountEmail              = "mikehoskins+aft2025-acct4@gmail.com"
+    AccountName               = "acct4-aft"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "mikehoskins@gmail.com"
-    SSOUserFirstName          = "Acct2-user"
+    SSOUserFirstName          = "acct4-user"
     SSOUserLastName           = "AFT"
   }
 
@@ -23,18 +23,18 @@ module "acct2" {
     group = "non-prod"
   }
 
-  account_customizations_name = "acct2"
+  account_customizations_name = "acct4"
 }
 
-module "acct3" {  
+module "acct5" {  
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "mikehoskins+aft2025-acct3@gmail.com"  
-    AccountName               = "acct3-aft"  
+    AccountEmail              = "mikehoskins+aft2025-acct5@gmail.com"  
+    AccountName               = "acct5-aft"  
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "mikehoskins@gmail.com"
-    SSOUserFirstName          = "Acct3-user"
+    SSOUserFirstName          = "acct5-user"
     SSOUserLastName           = "AFT"
   }
 
@@ -51,5 +51,5 @@ module "acct3" {
     group = "non-prod"
   }
 
-  account_customizations_name = "acct3"
+  account_customizations_name = "acct5"
 }
