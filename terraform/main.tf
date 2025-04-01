@@ -6,7 +6,7 @@ module "acct2" {
     AccountName               = "acct2-aft"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "mikehoskins@gmail.com"
-    SSOUserFirstName          = "Sandbox"
+    SSOUserFirstName          = "Acct2"
     SSOUserLastName           = "AFT"
   }
 
